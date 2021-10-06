@@ -8,3 +8,10 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media (min-width: 400px) {
+  .lead__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
