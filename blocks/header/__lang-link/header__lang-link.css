@@ -2,6 +2,8 @@
     display: block;
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .header__lang-link:visited {
@@ -19,4 +21,11 @@
 
 .header__lang-link:hover {
     opacity: .8;
+}
+
+@media (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
