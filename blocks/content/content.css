@@ -1,6 +1,27 @@
 .content {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    box-sizing: border-box;
+    margin: 56px 0 92px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-items: center;
+    gap: 92px;
+}
+
+@media (max-width: 1278px) {
+    .content {
+        margin: 48px 0 92px;
+    }
+}
+
+@media (max-width: 1022px) {
+    .content {
+        margin: 48px 0 88px;
+        gap: 88px;
+    }
+}
+
+@media (max-width: 766px) {
+    .content {
+        margin: 48px 0 64px;
+        gap: 64px;
+    }
 }

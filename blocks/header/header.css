@@ -7,13 +7,13 @@
     box-sizing: border-box;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1022px) {
     .header {
         padding: 0 24px 0 24px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .header {
         padding: 0 16px 0 16px;
         align-items: center;

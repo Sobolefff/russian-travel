@@ -12,20 +12,20 @@
     background-position: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1278px) {
     .cover__background {
         min-height: 640px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
     .cover__background {
         min-height: 480px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .cover__background {
-        min-height: 200px;
+        min-height: 480px;
     }
 }

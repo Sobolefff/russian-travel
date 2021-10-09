@@ -1,16 +1,15 @@
 .places {
-    margin-top: 92px;
     max-width: 984px;
     box-sizing: border-box;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
     .places {
         padding: 0 24px 0 24px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .places {
         padding: 0;
     }

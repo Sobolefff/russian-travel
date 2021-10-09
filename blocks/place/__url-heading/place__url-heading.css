@@ -1,4 +1,5 @@
 .place__url-heading {
+    margin: 0 0 12px 0;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -8,7 +9,7 @@
     color: #AAAAAA;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
     .place__url-heading {
         line-height: 12px;
     }

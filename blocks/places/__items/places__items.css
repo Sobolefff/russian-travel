@@ -2,4 +2,20 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+    justify-items: center;
+}
+
+@media (max-width: 1022px) {
+    .places__items {
+        gap: 73px;
+    }
+}
+
+@media (max-width: 766px) {
+    .places__items {
+        gap: 50px;
+    }
 }
