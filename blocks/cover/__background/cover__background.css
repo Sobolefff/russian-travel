@@ -1,0 +1,13 @@
+.cover__background {
+    position: relative;
+    background-image: url("../../../images/__background.jpg");
+    width: 100%;
+    min-height: 740px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+}

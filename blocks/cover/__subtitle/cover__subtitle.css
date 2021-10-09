@@ -1,13 +1,16 @@
-.place__link {
+.cover__subtitle {
+    margin: 32px auto 0;
+    max-width: 360px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
+    text-align: center;
     color: #FFFFFF;
+    z-index: 100;
 }
 
-.place__link:hover {
+.cover__subtitle:hover ~ .cover__overlay {
     opacity: .8;
 }

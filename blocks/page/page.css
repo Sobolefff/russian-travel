@@ -7,3 +7,15 @@
     box-sizing: border-box;
     font-family: Inter;
 }
+
+@media (max-width: 768px) {
+    .page {
+        padding: 28px 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page {
+        padding-top: 16px;
+    }
+}
