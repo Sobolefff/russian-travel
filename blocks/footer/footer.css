@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .footer {
         padding: 0 24px 0 24px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .footer {
         padding: 0 16px 0 16px;
         flex-flow: column;
