@@ -8,8 +8,9 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1278px) {
@@ -26,6 +27,6 @@
 
 @media (max-width: 766px) {
     .cover__background {
-        min-height: 480px;
+        min-height: 200px;
     }
 }
