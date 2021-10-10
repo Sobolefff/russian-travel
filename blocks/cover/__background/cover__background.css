@@ -13,20 +13,14 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1278px) {
+@media (max-width: 1281px) {
     .cover__background {
-        min-height: 640px;
+        min-height: calc(62.5vw - 96px);
     }
 }
 
-@media (max-width: 1022px) {
+@media (max-width: 1023px) {
     .cover__background {
-        min-height: 480px;
-    }
-}
-
-@media (max-width: 766px) {
-    .cover__background {
-        min-height: 200px;
+        min-height: 62.5vw;
     }
 }
