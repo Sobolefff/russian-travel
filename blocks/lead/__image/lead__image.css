@@ -3,13 +3,13 @@
     max-width: 100%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1278px) {
     .lead__image {
         margin: 56px 0 0;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .lead__image {
         margin: 40px 0 0;
     }

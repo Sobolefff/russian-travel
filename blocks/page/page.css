@@ -3,15 +3,9 @@
     height: auto;
     background-color: #2A2C2F;
     margin: 0 auto;
-    padding: 28px 48px 24px;
+    padding: 28px 0 24px;
     box-sizing: border-box;
     font-family: 'Inter', Arial, sans-serif;
-}
-
-@media (max-width: 1022px) {
-    .page {
-        padding: 28px 0 24px;
-    }
 }
 
 @media (max-width: 766px) {

@@ -1,7 +1,6 @@
 .cover__subtitle {
     margin: 32px auto 0;
     max-width: 360px;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -15,7 +14,7 @@
     opacity: .8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;

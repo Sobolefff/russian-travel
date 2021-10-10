@@ -4,6 +4,7 @@
     grid-template: repeat(3, 1fr) / repeat(4, 1fr);
     gap: 16px;
     box-sizing: border-box;
+    padding: 0 48px 0;
 }
 
 @media (max-width: 1278px) {

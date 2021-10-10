@@ -1,6 +1,11 @@
 .places {
     max-width: 984px;
-    box-sizing: border-box;
+}
+
+@media (max-width: 1278px) {
+    .places {
+        padding: 0 48px 0;
+    }
 }
 
 @media (max-width: 1022px) {

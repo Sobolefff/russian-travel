@@ -1,6 +1,5 @@
 .place__paragraph {
     margin: 0;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -12,13 +11,13 @@
     margin-top: 26px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .place__paragraph {
         padding: 0 16px 0 16px;
     }

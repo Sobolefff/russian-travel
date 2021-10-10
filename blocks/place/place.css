@@ -7,6 +7,18 @@
     column-gap: 40px;
 }
 
+@media (max-width: 1278px) {
+    .place {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 1022px) {
+    .place {
+        column-gap: 28px;
+    }
+}
+
 @media (max-width: 766px) {
     .place {
         grid-template-columns: repeat(1, auto);

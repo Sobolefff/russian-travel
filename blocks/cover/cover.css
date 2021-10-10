@@ -1,13 +1,14 @@
 .cover{
     position: relative;
     background-image: url("../../../images/__background.jpg");
+    max-width: calc(1280px - 96px);
     width: 100%;
     min-height: 740px;
     background-repeat: no-repeat;
-    
-    background-size: 100% auto;
+    background-size: contain;
     background-position: center;
     box-sizing: border-box;
+    padding: 0 48px 0;
 }
 
 .cover::before {
@@ -26,13 +27,7 @@
     opacity: .8;
 }
 
-@media (max-width: 1279px) {
-    .cover {
-        min-height: calc(62.5vw - 96px);
-    }
-}
-
-@media (max-width: 1023px) {
+@media (max-width: 1278px) {
     .cover {
         min-height: 62.5vw;
     }

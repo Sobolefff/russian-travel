@@ -1,5 +1,4 @@
 .footer__link {
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -16,7 +15,11 @@
     opacity: .8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
     .footer__link:nth-of-type(2n) {
         margin: 32px 0 32px 0;
     }

@@ -4,6 +4,7 @@
     grid-template-columns: repeat(1, auto);
     justify-items: center;
     gap: 92px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1278px) {
