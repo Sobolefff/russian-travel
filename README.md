@@ -10,4 +10,3 @@
 ### Ссылки
 
 Проект доступен на GitHub Pages по [ссылке](https://sobolefff.github.io/russian-travel/ "Проект: Путешествия по России")
-
