@@ -1,7 +1,7 @@
 .content {
     margin: 56px 0 92px;
     display: grid;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, 100%);
     justify-items: center;
     gap: 92px;
     box-sizing: border-box;

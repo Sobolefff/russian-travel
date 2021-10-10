@@ -10,7 +10,7 @@
     align-self: flex-start;
 }
 
-@media (max-width: 1022px) {
+@media (max-width: 928px) {
     .lead__caption{
         margin-left: 24px;
     }
