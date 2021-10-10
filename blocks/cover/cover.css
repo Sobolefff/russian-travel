@@ -1,6 +1,6 @@
 .cover{
     position: relative;
-    background-image: url("../../../images/__background.jpg");
+    background-image: url("../../images/__background.jpg");
     max-width: calc(1280px - 96px);
     width: 100%;
     min-height: 740px;
