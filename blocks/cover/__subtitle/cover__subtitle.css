@@ -10,10 +10,6 @@
     z-index: 100;
 }
 
-.cover__subtitle:hover ~ .cover::before {
-    opacity: .8;
-}
-
 @media (max-width: 766px) {
     .cover__subtitle {
         font-size: 14px;

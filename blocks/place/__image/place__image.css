@@ -1,3 +1,15 @@
 .place__image {
     width: 100%;
 }
+
+@media (max-width: 1022px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 1278px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
