@@ -1,32 +1,4 @@
-.cover{
-    position: relative;
-    background-image: url("../../images/__background.jpg");
-    max-width: calc(1280px - 96px);
-    width: 100%;
-    min-height: 740px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.cover::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2A2C2F;
-    opacity: .3;
-    z-index: 0;
-}
-
-.cover:hover::before {
-    opacity: .8;
-}
-
-@media (max-width: 1278px) {
-    .cover {
-        min-height: 62.5vw;
-    }
+.cover {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 100%;
 }
