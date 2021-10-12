@@ -1,6 +1,7 @@
 .places {
     width: 100%;
     max-width: 984px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1278px) {
@@ -9,7 +10,7 @@
     }
 }
 
-@media (max-width: 1022px) {
+@media (max-width: 770px) {
     .places {
       width: 100%;
       max-width: 720px;
