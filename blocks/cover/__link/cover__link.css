@@ -6,12 +6,13 @@
   justify-content: center;
   position: relative;
   background-image: url("../../../images/__background.jpg");
-  max-width: calc(1280px - 96px);
   width: 100%;
+  max-width: calc(1280px - 96px);
   min-height: 740px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  
 }
 
 .cover__link::before {

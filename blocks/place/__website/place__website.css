@@ -6,6 +6,5 @@
 @media (max-width: 766px) {
     .place__website {
         padding: 0 16px 0 16px;
-        align-self: stretch;
     }
 }

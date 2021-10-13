@@ -1,6 +1,5 @@
 .place__image {
-    width: 100%;
-    
+    max-width: 460px;
 }
 
 @media (max-width: 1278px) {
@@ -12,5 +11,11 @@
 @media (max-width: 1022px) {
   .place__image {
     max-width: 340px;
+  }
+}
+
+@media (max-width: 766px) {
+  .place__image {
+    width: 100vw;
   }
 }

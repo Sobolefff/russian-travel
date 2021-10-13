@@ -1,0 +1,9 @@
+.place__text {
+    box-sizing: border-box;
+}
+
+@media (max-width: 766px) {
+    .place__text {
+        padding: 0 16px 0 16px;  
+    }
+}

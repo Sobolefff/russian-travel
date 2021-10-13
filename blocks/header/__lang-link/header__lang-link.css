@@ -23,7 +23,7 @@
     opacity: .8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

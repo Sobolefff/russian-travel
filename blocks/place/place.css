@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 984px;
     display: grid;
-    grid-template: repeat(2, auto) / repeat(2, 1fr);
+    grid-template: repeat(2, auto) / repeat(2, auto);
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -21,7 +21,8 @@
 
 @media (max-width: 766px) {
     .place {
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(1, 1fr);
         gap: 32px;
+        box-sizing: border-box;
     }
 }
