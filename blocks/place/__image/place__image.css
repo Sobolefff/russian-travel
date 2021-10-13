@@ -14,9 +14,3 @@
     max-width: 340px;
   }
 }
-
-@media (max-width: 766px) {
-  .place__image {
-    max-width: 100%;
-  }
-}
